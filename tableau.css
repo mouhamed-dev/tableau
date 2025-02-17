@@ -1,0 +1,39 @@
+body {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+table {
+    width: 80%;
+    border-collapse: collapse;
+    border-radius: 8px;
+}
+.tr {
+    border-bottom: 10px solid white;
+}
+th, td {
+    border: 1px solid white;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+th {
+    background: #ccc;
+    color: black;
+    font-weight: bold;
+}
+.blue { 
+    background: #24a5c5; 
+}
+.pink { 
+    background: #dc2672;  
+}
+.green { 
+    background: #9bc42b;  
+}
+.orange { 
+    background: #ee741c;  
+}
